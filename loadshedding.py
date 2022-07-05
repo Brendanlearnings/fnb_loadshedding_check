@@ -1,4 +1,5 @@
-import Eskom, streamlit, pandas
+from load_shedding.providers.eskom import Eskom, Suburb, Province, Stage, ProviderError
+import streamlit, pandas
 
 streamlit.title('Find out the loadshedding schedule for a specific area in South Africa')
 
